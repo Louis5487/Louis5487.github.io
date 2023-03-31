@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<!-- head-->
+
+<head>
+  <meta charset="utf-8">
+  <title> Mon portfolio </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="src/css/main.css">
+  <!-- CSS -->
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/479ca50d1f.js" crossorigin="anonymous"></script>
+  <!-- font -->
+  <script scr="src\js\main.js"></script>
+</head>
+<!-- head-->
+
+
+<!-- body -->
+
+<body>
+
+  <!-- header -->
+  <div class="block">
+    <header class="header">
+      <a href="#" class="header-logo">Mon Portfolio</a>
+      <nav class="header-menu">
+        <a href="#">Accueil</a>
+        <a href="#">A propos</a>
+        <a href="#">Mes Travaux</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+  </div>
+  <!-- header -->
+
+  <!-- banner-->
+  <div class="block">
+    <div class="banner">
+      <img src="src/img/bg.jpg" alt="Un ordinateur avec du code" class="banner-img">
+      <div class="banner-content">
+        <h1 class="title is-1">Bienvenue sur mon portfolio</h1>
+        <h2 class="subtitle">Decouvrez mes travaux et mon univers !</h2>
+        <button class="button is-link" id="openModal">Contactez-moi !</button>
+      </div>
+    </div>
+  </div>
+  <!-- banner-->
+
+  <!-- modal -->
+  <div class="modal own-modal" id="modal_to_open">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Modal title</p>
+        <button class="delete" aria-label="close" id="close_modal"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>Le contenu de mon modal</p>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button is-link">Save changes</button>
+      </footer>
+    </div>
+  </div>
+  <!-- modal -->
+
+  <!-- section : A propos -->
+  <div class="block about">
+    <img src="src/img/about-bg.jpg" alt="plan de travail" class="about-img">
+    <div class="container">
+      <h2 class="heading-site">A propos</h2>
+      <div class="columns">
+        <div class="column about-single-element">
+          <i class="fa-solid fa-code icon"></i>
+          <p>
+            Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed
+            tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate
+            perfecta ratione vieturo ante alia patriam esse convenit gloriosam.
+          </p>
+        </div>
+        <div class="column about-single-element">
+          <i class="fa-solid fa-mug-hot icon"></i>
+          <p>
+            Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed
+            tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate
+            perfecta ratione vieturo ante alia patriam esse convenit gloriosam.
+          </p>
+        </div>
+        <div class="column about-single-element">
+          <i class="fa-solid fa-code icon"></i>
+          <p>
+            Sed laeditur hic coetuum magnificus splendor levitate paucorum incondita, ubi nati sunt non reputantium, sed
+            tamquam indulta licentia vitiis ad errores lapsorum ac lasciviam. ut enim Simonides lyricus docet, beate
+            perfecta ratione vieturo ante alia patriam esse convenit gloriosam.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- section : A propos -->
+
+  <!-- portfolio -->
+  <div class="block portfolio">
+    <h2 class="subtitle heading-site">Mon portfolio</h2>
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child">
+                <div class="notification">Contient une photo</div>
+              </article>
+              <article class="tile is child">
+                <img src="src/img/bg.jpg" alt="Description photo">
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <div class="notification is-primaary">
+                  <div class="COLORED">100x100</div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent is-danger">
+            <article class="tile is-child notification is-success">
+              <div class="content">
+                <p class="title">Contact</p>
+                <p class="subtitle">louis.bollinne@gmail.com</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <!-- Any content-->
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio -->
+
+  <!-- contact -->
+  <div class="block footer-block">
+    <footer class="footer column is-offset-2 is-8">
+      <h2 class="heading-site">Contactez-moi</h2>
+      <div class="footer-contact-form">
+        <form>
+          <div class="field">
+            <label class="label">Nom</label>
+            <div class="control">
+              <input id="name" class="input" type="text" placeholder="e.g Smith" name="name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Prenom</label>
+            <div class="control">
+              <input id="firstname" class="input" type="text" placeholder="e.g Alex" name="firstname">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Adresse Email</label>
+            <div class="control">
+              <input id="email" class="input" type="text" placeholder="e.g alex.smith@gmail.com" name="email">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea id="message" class="textarea" placeholder="Textarea" name="message"></textarea>
+            </div>
+          </div>
+        </form>
+        <button class="button is-link" id="send_email">Envoyer !</button>
+      </div>
+      <div class="footer-informations">
+        <p>Rue du Madot,101</p>
+        <p>4520 Moha</p>
+        <p>Wanze Belgique</p>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/louissbollinne" target="_blank">
+              <i class="fa-brands fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/_JusTEzZ" target="_blank">
+              <i class="fa-brands fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/louis_blne/?hl=fr" target="_blank">
+              <i class="fa-brands fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <!-- contact -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="src\js\main.js" defer></script>
+</body>
+<!-- body -->
+
+
+</html>

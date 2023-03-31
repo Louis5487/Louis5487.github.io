@@ -1,0 +1,173 @@
+/*
+GLOBAL
+*/
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.COLORED {
+    height: 335px ;
+    width: 100%;
+    background-color: #3498db;
+    padding: 30px;
+    text-align: center;
+}
+/*
+HEADER
+*/
+.header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.header .header-logo {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: #FFF;
+}
+
+.header .header-menu a:hover {
+    color: #3498db;
+}
+
+/*
+BANNER
+*/
+  
+.banner {
+    margin-top: -25px;
+    left: 5%;
+}
+
+.banner .banner-img {
+    position: relative;
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 25%;
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    color: #FFF;
+}
+
+/*
+ABOUT
+*/
+
+.about .about-single-element .icon {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about .about-single-element {
+    text-align: center;
+    color: #FFF;
+}
+
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20 px;
+}
+
+.about .heading-site {
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.about .about-img {
+    position: relative;
+    z-index: -1;
+    top: -35px;
+    bottom: -100px;
+}
+
+.about .container {
+    background-color: rgba(0, 0, 0, 0);
+    top: -300px;
+}
+
+/*
+portfolio
+*/
+
+.portfolio {
+    background-color: #6d6765;
+    padding: 20px;
+    top: -305px;
+    position: relative;
+    z-index: -2;
+}
+
+.portfolio .heading-site {
+    margin-bottom: 20px;
+}
+
+/*
+footer
+*/
+
+.footer .footer-informations{
+    text-align: center;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+.footer .footer-informations ul {
+    padding: 0;
+}
+
+.footer .footer-informations ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 35px;
+}
+
+.footer .footer-informations a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    background-color: rgb(76, 91, 97);
+}
+
+.footer .footer-contact-form .field label {
+    color: #FFF;
+}
+
+.footer-block {
+    top: -250px;
+    position: relative;
+}
+
+/*
+modal
+*/
+.own-modal {
+    padding-top: 120px;
+}
